@@ -1,0 +1,62 @@
+.topart{
+  position: relative;
+  top: 8em;
+  left: 1em;
+}
+.date{
+  position:relative;
+  top:-8em;
+  right:-38em;
+
+}
+.sub{
+  position:relative;
+  top:3em;
+  left:1em;
+  .sub{
+    position: relative;
+    left:2em;
+    top:0em;
+  }
+  .body{
+    position: relative;
+    left:0em;
+    .mid{
+      position: relative;
+      left:1em;
+    }
+  }
+  .encl{
+    position: relative;
+    left:0em;
+  }
+  .thank{
+    position: relative;
+    left:17.5em
+  }
+}
+.sign{
+  position: relative;
+  top:3em;
+  right: -34.5em;
+  .sign{
+    position: relative;
+    left:60em;
+  }
+}
+
+.button{
+  position: relative;
+  top: 4em;
+  left: 12em;
+  .BTN2{
+    position: relative;
+    // top: 4em;
+    left: 2em;
+  }
+
+  .less10km{
+    position: absolute;
+    top: 5em;
+  }
+}

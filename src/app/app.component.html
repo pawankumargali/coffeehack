@@ -1,0 +1,77 @@
+<div class="letter" [hidden]="letter">
+
+<div class="topart">
+  <p>To,</p>
+  <p>Vishanu Priya,</p>
+  <p>Asst Engineer</p>
+  <p>PRLIS,</p>
+</div>
+<div class="date">
+  <p>4 Dec 2016,</p>
+  <p>Hyderabad</p>
+</div>
+<div class="sub">
+  <p>Madam,</p>
+  <p class="sub">Sub: Seeking permission to take you out for a coffee</p>
+  <p class="body"><span class="mid">I request you to kindly consider the proposal permit me to have a coffee with you. If you do</span><br> agree, I have herewith enclosed the location of coffee shop hereby</p>
+  <p class="encl">Encl: As above</p>
+  <p class="thank">Thanking You</p>
+</div>
+<div class="sign">
+  <p class="your">Your Sincerely</p>
+  <p>Pavan Kumar Gali</p>
+</div>
+<div class="button">
+  <a (click)="accept()" class="BTN1 waves-effect waves-light btn">Accept</a>
+  <a (click)="reject()" class="BTN2 waves-effect waves-light btn">Reject</a>
+</div>
+</div>
+
+<div class="coffeeshop" [hidden]="coffeeshop">
+  <!-- <nav>
+    <div class="nav-wrapper">
+      <!-- <a href="#" class="brand-logo right">Logo</a> -->
+      <!-- <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li [class]="less" ><a (click)="less10()" href="#">coffeeshop lessthan 10km</a></li> -->
+        <!-- <li [class]="great"><a (clcik)="great()" href="#">Coffeeshop greaterthan 10km</a></li> -->
+        <!-- <li><a href="collapsible.html">JavaScript</a></li> -->
+      <!-- </ul>
+    </div>
+  </nav> -->
+  <div class="row less10km" [hidden]="less10card">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <!-- <img src="images/sample-1.jpg"> -->
+        </div>
+        <div class="card-content">
+          <span class="card-title">Swagath Grand Attapur</span>
+          <p>Swagath Grand, Attapur, Hyderabad</p>
+        </div>
+        <div class="card-action">
+          <a href="#" (click)="select()">Select</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="card" [hidden]="">
+      <div class="row less10km" [hidden]="great10card">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <!-- <img src="images/sample-1.jpg"> -->
+            </div>
+            <div class="card-content">
+              <span class="card-title">Swagath Grand Attapur</span>
+              <p>Swagath Grand, Attapur, Hyderabad</p>
+            </div>
+            <div class="card-action">
+              <a href="#" (click)="select()">Select</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
